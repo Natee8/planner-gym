@@ -1,0 +1,34 @@
+.borderError {
+  opacity: 100%;
+  border: 3px solid rgb(255, 65, 65) !important;
+}
+
+.colorError {
+  color: rgb(255, 65, 65);
+}
+
+.UserNotMessage {
+  padding: 1rem;
+  margin-top: 2rem;
+
+  border-radius: 5px;
+ 
+  font-size: 1.2rem;
+}
+
+.Green {
+  background-image: linear-gradient(to bottom, #5DAD42, #98C776);
+}
+
+.view {
+  height: auto;
+  background-image: linear-gradient(to bottom, black, white);
+  -webkit-text-fill-color: black;
+}
+
+.taksCompleted {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}

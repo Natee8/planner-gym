@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harmonia fitness - Agenda de Treinos</title>
+  <link rel="icon" href="/Assets/images/Png/FavIcon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/Assets/ResetCSS/Reset.css">
+  <link rel="stylesheet" href="/styles/Header.css">
+  <link rel="stylesheet" href="/styles/main.css">
+  <link rel="stylesheet" href="/styles/MobileQuery.css">
+  <link rel="stylesheet" href="/styles/animation.css">
+  <script src="https://kit.fontawesome.com/d7f64409ee.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <div class="containerBackground">
+      <div class="welcome">
+        <h4>Bem Vindo(a)</h4>
+        <h2>Pessoa</h2>
+      </div>
+        <h1>Treinos</h1>
+        <i class="fa-solid fa-bars fa-lg" ></i>
+      </div>
+    </header>
+    <div class="containerMenu">
+      <div class="MenuExpanse" style="display: none;">
+        <div class="profile center">
+          <img src="/Assets/images/Svg/Profile.svg" alt="">
+          <h1>Olá, Pessoa!</h1>
+          <div class="infoBasic">
+            <div class="name infoP">
+              <p>Nome completo:</p>
+              <p>Nathália Almeida Amorim</p>
+            </div>
+            <div class="email infoP">
+              <p>Endereço de Email</p>
+              <p>EmaildoAluno@gmail.com</p>
+            </div>
+            <div class="passwordtext infoP">
+              <p>Senha</p>
+              <p>**********</p>
+            </div>
+          </div>
+          <div class="btn">
+           <p> Configurações da Conta </p>
+            <i class="fa-solid fa-chevron-down" style="color: #000000;"></i>
+            </div>
+            <div class= "settings" style="display:none">
+              <div>
+                <label for="nameStng">Editar Nome:</label>
+                <input type="text" name="nameStng">
+              </div>
+              <div>
+                <label for="nameStng">Editar Email:</label>
+                <input type="text" name="nameStng">
+              </div>
+              <button>Atualizar dados</button>
+            </div>
+        </div>
+      </div>
+   </div> 
+  <main>
+    <div class="filterAndScroll">
+      <div class="scroll">
+        <i class="fa-solid fa-chevron-left fa-xl"></i>
+      </div>
+      <ul class="container-Filter">
+        <div class="filter Green">
+          <li>Painel</li>
+        </div>
+        <div class="filter">
+          <li>Segunda</li>
+        </div>
+        <div class="filter">
+          <li>Terça</li>
+        </div>
+        <div class="filter">
+          <li>Quarta</li>
+        </div>
+        <div class="filter">
+          <li>Quinta</li>
+        </div>
+        <div class="filter">
+          <li>Sexta</li>
+        </div>
+        <div class="filter">
+          <li>Sabado</li>
+        </div>
+        <div class="filter">
+          <li>Domingo</li>
+        </div>
+        
+      </ul>
+      <div class="scroll">
+        <i class="fa-solid fa-chevron-right fa-xl"></i>
+      </div>
+    </div>
+    <div class="viewDashboard">
+    <div class="containerAverage center ">
+      <div class="average">
+        <div class="textAverage">
+          <h1>Médias da semana:</h1>
+          <p>Exercícios a fazer: 05</p>
+          <p>Exercícios Concluídos:    05</p>
+          <p>Total de treinos feitos:   01</p>
+          <p>Restante:  03</p>
+         </div>
+          <div class="circle">
+            <i class="fa-solid fa-star-half-stroke fa-xl"></i>
+            <p>Média de exercicios:</p>
+            <h3>00%</h3>
+            <p>Média de treinos:</p>
+            <h3>00%</h3>
+          </div>
+        </div>
+      </div>
+      <div class="slip">
+        <h3>Frase do dia</h3>
+        <p>“ Viver cada dia como se fosse o último é uma ótima oportunidade para aprender a amar cada segundo do seu dia.”</p>
+      </div>
+      <div class="todayWorkout center">
+        <h1>Treino de hoje:</h1>
+        <div class="slide">
+          <img src="/Assets/images/Svg/exercice1.svg" alt="imagem exercicio">
+          <img src="/Assets/images/Svg/exercice2.svg" alt="imagem exercicio" id="centerImg">
+          <img src="/Assets/images/Svg/exercice3.svg" alt="imagem exercicio">
+        </div>
+        <div class="task">
+          <div class="info">
+            <div>
+            <h4>Segunda-Feira</h4>
+            <p>Pernas</p>
+            </div>
+            <div class="min">
+              <i class="fa-regular fa-clock" style="color: #000000;"></i>
+              <p>10 minutos</p>
+            </div>
+          </div>
+            <div class="exercices">
+              <p>Elevação lateral com halteres</p>
+              <p>Abertura/crucifixo com halteres</p>
+              <p>Flexâo do quadril em barra<p>
+              <p>Curl com barra em pronação</p>
+              <p>Curl com barra em pronação</p>
+              <p>Curl com barra em pronação</p>
+              <p>Curl com barra em pronação</p>
+            </div>
+            <div class="iTask">
+              <i class="fa-regular fa-star fa-2xl" style="color: #000000;"></i>
+            </div>
+        </div>
+      </div>
+      <div class="nextWorkout center">
+          <h1>Talvez você tenha interesse...</h1>
+          <div class="task next">
+            <div class="info">
+              <div>
+              <h4>Quinta-Feira</h4>
+              <p>Pernas</p>
+              </div>
+              <div class="min">
+                <i class="fa-regular fa-clock" style="color: #000000;"></i>
+                <p>10 minutos</p>
+              </div>
+            </div>
+              <div class="exercices">
+                <p>Elevação lateral com halteres</p>
+                <p>Abertura/crucifixo com halteres</p>
+                <p>Flexâo do quadril em barra<p>
+                <p>Curl com barra em pronação</p>
+                <p>Curl com barra em pronação</p>
+                <p>Curl com barra em pronação</p>
+              </div>
+              <div class="iTask">
+                <i class="fa-regular fa-star fa-2xl" style="color: #000000;"></i>
+              </div>
+          </div>
+          <div class="task next">
+            <div class="info">
+              <div>
+              <h4>Terça-Feira</h4>
+              <p>Pernas</p>
+              </div>
+              <div class="min">
+                <i class="fa-regular fa-clock" style="color: #000000;"></i>
+                <p>10 minutos</p>
+              </div>
+            </div>
+              <div class="exercices">
+                <p>Elevação lateral com halteres</p>
+                <p>Abertura/crucifixo com halteres</p>
+                <p>Flexâo do quadril em barra<p>
+                <p>Curl com barra em pronação</p>
+                <p>Curl com barra em pronação</p>
+              </div>
+              <div class="iTask">
+                <i class="fa-regular fa-star fa-2xl" style="color: #000000;"></i>
+              </div>
+          </div>
+          <div class="task next">
+            <div class="info">
+              <div>
+              <h4>Quarta-Feira</h4>
+              <p>Pernas</p>
+              </div>
+              <div class="min">
+                <i class="fa-regular fa-clock" style="color: #000000;"></i>
+                <p>10 minutos</p>
+              </div>
+            </div>
+              <div class="exercices">
+                <p>Elevação lateral com halteres</p>
+                <p>Abertura/crucifixo com halteres</p>
+                <p>Flexâo do quadril em barra<p>
+                <p>Curl com barra em pronação</p>
+                <p>Curl com barra em pronação</p>
+                <p>Curl com barra em pronação</p>
+                <p>Curl com barra em pronação</p>
+              </div>
+              <div class="iTask">
+                <i class="fa-regular fa-star fa-2xl" style="color: #000000;"></i>
+              </div>
+          </div>
+          <div class="task next">
+            <div class="info">
+              <div>
+              <h4>Sabado</h4>
+              <p>Pernas</p>
+              </div>
+              <div class="min">
+                <i class="fa-regular fa-clock" style="color: #000000;"></i>
+                <p>10 minutos</p>
+              </div>
+            </div>
+              <div class="exercices">
+                <p>Elevação lateral com halteres</p>
+                <p>Abertura/crucifixo com halteres</p>
+                <p>Flexâo do quadril em barra<p>
+                <p>Curl com barra em pronação</p>
+                <p>Curl com barra em pronação</p>
+                <p>Curl com barra em pronação</p>
+                <p>Curl com barra em pronação</p>
+              </div>
+              <div class="iTask">
+                <i class="fa-regular fa-star fa-2xl" style="color: #000000;"></i>
+              </div>
+          </div>
+          <div class="task next">
+            <div class="info">
+              <div>
+              <h4>Domingo</h4>
+              <p>Pernas</p>
+              </div>
+              <div class="min">
+                <i class="fa-regular fa-clock" style="color: #000000;"></i>
+                <p>10 minutos</p>
+              </div>
+            </div>
+              <div class="exercices">
+                <p>Elevação lateral com halteres</p>
+                <p>Abertura/crucifixo com halteres</p>
+                <p>Flexâo do quadril em barra<p>
+                <p>Curl com barra em pronação</p>
+                <p>Curl com barra em pronação</p>
+              </div>
+              <div class="iTask">
+                <i class="fa-regular fa-star fa-2xl" style="color: #000000;"></i>
+              </div>
+          </div>
+      </div>
+    </div>
+    </main>
+    <script src="/js/ScriptHomePage.js"></script>
+  </body>
+  </html>

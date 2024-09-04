@@ -1,0 +1,41 @@
+@media only screen and (max-width: 1750px)  {
+  .average {
+    width: 90%;
+  }
+  .slip {
+    margin: 0px 100px;
+  }
+}
+@media only screen and (max-width: 1065px) {
+  .average {
+    flex-direction: column;
+    align-items: center;
+  }
+  .containerAverage {
+    width: 90%;
+    height: 60%;
+  }
+  .textAverage {
+    width: 100%;
+    text-align: center;
+  }
+  .info {
+    height: 100px;
+  }
+  .task {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 200px;
+  }
+  .iTask i {
+    justify-content: center;
+    height: 50px;
+  }
+  .nextWorkout {
+    margin-top: 7rem;
+  }
+ 
+
+}

@@ -1,0 +1,228 @@
+body {
+  background-color: #E1E1E6;
+
+}
+
+header {
+  width: 100%;
+  height: auto;
+
+  position: fixed;
+}
+
+.containerBackground {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+
+  padding: 3vb 5vb;
+  font-size: 1.6rem;
+
+  color: white;
+  background-color: #15234D;
+
+}
+
+.welcome h4 {
+
+  background-image: linear-gradient(to bottom, #FF751F, #FFAC78);
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+  color: black;
+
+  font-size: 1.1rem;
+
+}
+
+.welcome h2 {
+  font-size: 3rem;
+  font-weight: 300;
+
+  text-transform: capitalize;
+}
+
+.containerMenu {
+  width: auto;
+  height: auto;
+
+  display: flex;
+  justify-content: end;
+
+}
+
+.MenuExpanse {
+  width: 500px;
+  height: 90vb;
+
+  margin-top: 8rem;
+
+  overflow: auto;
+
+  position: fixed;
+
+  box-shadow: 0px 5px 7px 2px rgba(0, 0, 0, 0.086);
+  background-color: rgb(255, 255, 255);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 1.2rem;
+  font-weight: 500;
+  gap: 30px;
+}
+
+.profile h1 {
+    text-transform: capitalize;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  font-size: 1.2rem;
+
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #FF751F, #ff9959);
+
+  width: 100%;
+  height: 70px;
+
+  cursor: pointer;
+
+  margin-bottom: 5rem;
+
+}
+
+.settings {
+  width: 100%;
+  height: auto;
+  max-height: 800px;
+}
+
+.settings button {
+  width: 98%;
+  height: 70px;
+  border-radius: 10px;
+  padding: 17px;
+
+  font-size: 1.1rem;
+
+  cursor: pointer;
+
+
+  background-color: #e6e6e6;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+
+  transition: 1s;
+}
+.settings button:hover {
+  background-color: #929292b5;
+}
+
+.settings input {
+  border: 1px solid black;
+  border-radius: 10px;
+
+  width: 90%;
+  padding: 16px;
+
+  margin: 30px 0px;
+}
+
+.settings p {
+  margin-bottom: 1.5rem;
+}
+
+.name,
+.email,
+.passwordtext {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.186);
+  padding: 2rem 2rem;
+}
+
+.profile img {
+  width: 50%;
+  min-width: 300px;
+}
+
+.containerBackground i {
+  cursor: pointer;
+  margin-bottom: 1.2rem;
+  margin-left: 2rem;
+  transition: 1s;
+}
+
+.containerBackground i:hover {
+  color: rgb(212, 212, 212);
+}
+
+.container-Filter {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 85%;
+
+  overflow: auto;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  
+
+  gap: 2rem;
+
+
+}
+
+.filter {
+  width: 250px;
+
+  font-size: 25px;
+
+  cursor: pointer;
+
+  background-color: #15234D;
+  color: white;
+
+  border-radius: 20px;
+
+  padding: 20px 20px;
+
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+
+  box-shadow: 0px 0px 0px 1px #8ac3ffb5;
+}
+
+.filterAndScroll {
+  width: 100%;
+  height: 6%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 2rem;
+
+}
+
+.filterAndScroll i {
+  margin-top: 2.7rem;
+  cursor: pointer;
+}
+
+.scroll {
+  margin: 0 15px;
+}

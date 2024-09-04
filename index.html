@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harmonia Fitness - login</title>
+  <link rel="icon" href="./Assets/images/Png/FavIcon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./Assets/ResetCSS/Reset.css">
+  <link rel="stylesheet" href="./styles/login.css">
+  <link rel="stylesheet" href="./styles/register.css">
+  <link rel="stylesheet" href="./styles/animation.css">
+</head>
+
+<body>
+  <div class="center">
+    <div class="container-img">
+      <div class="image"></div>
+    </div>
+    <main>
+      <div class="container">
+        <div class="logo">
+          <img src="./Assets/images/Svg/Logo.svg" alt="">
+          <p>Acesse sua conta</p>
+        </div>
+        <div class="forms">
+          <form id="form-login">
+            <div class="input">
+              <label name="text-inpt">Email:</label>
+              <input type="text" name="inpt-login" placeholder="Digite seu email...">
+            </div>
+            <div class="input">
+              <label name="text-inpt">Senha:</label>
+              <input type="password" name="inpt-login" placeholder="Digite sua senha...">
+            </div>
+            <button>Entrar</button>
+            <div class="textsalign">
+              <p>Ainda não tem uma conta?</p>
+              <a>
+                <p>Criar Conta</p>
+              </a>
+            </div>
+          </form>
+
+          <form id="form-register" style="display: none;">
+            <div class="input">
+              <label name="text-inpt">Nome:</label>
+              <input type="text" name="inpt-register" placeholder="Digite seu nome...">
+            </div>
+            <div class="input">
+              <label name="text-inpt">Email:</label>
+              <input type="text" name="inpt-register" placeholder="Digite seu email...">
+            </div>
+            <div class="input">
+              <label name="text-inpt">Senha:</label>
+              <input type="password" name="inpt-register" placeholder="Digite sua senha...">
+            </div>
+            <div class="input">
+              <label name="text-inpt">Repetir senha:</label>
+              <input type="password" name="inpt-register" placeholder="Repita sua senha...">
+            </div>
+            <div class="checkbox-custom">
+              <input type="checkbox" id="check-box">
+              <label for="check-box">Li e concordo com os <a href="">Termos de Uso</a> e <a href="">Políticas</a> da
+                academia Harmonia Fitness</label>
+            </div>
+            <button>Registrar</button>
+            <div class="back">
+              <div class="backArrow">
+                <img src="./Assets/images/Svg/back.svg" alt="">
+                <p>Voltar</p>
+              </div>
+              <div class="accountLoginBack">
+                <p>Já tem uma conta?</p>
+                <a>
+                  <p>Acesse aqui!</p>
+                </a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./js/ScriptLoginAndRegister.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jwt-decode/build/jwt-decode.min.js"></script>
+</body>
+
+</html>

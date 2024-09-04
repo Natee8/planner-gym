@@ -1,0 +1,98 @@
+.checkbox-custom input{
+  display: none;
+}
+.checkbox-custom input + label::before {
+  content: '';
+  width: 13px;
+  height: 13px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  box-shadow: 0px 0px 5px 1px rgba(255, 255, 255, 0.659);
+
+  margin-right: 10px;
+  margin-bottom: 3px;
+  vertical-align: middle;
+
+  display: inline-block;
+
+  cursor: pointer;
+}
+
+.checkbox-custom input:hover + label::before {
+  box-shadow: 0px 0px 5px 1px rgba(113, 255, 108, 0.997);
+}
+
+.checkbox-custom input:checked + label::before {
+  background-image: url(/Assets/images/Svg/check.svg);
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: 60% 60%;
+ transition: none;
+}
+
+.backArrow img {
+  width: 30px;
+}
+
+.checkbox-custom a {
+  color: #71FF2C;
+}
+
+.checkbox-custom label {
+  font-size: 1.1rem;
+  line-height: 35px;
+}
+
+.back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backArrow {
+  display: flex;
+  align-items: center;
+
+  font-size: 1.2rem;
+  font-weight: 600;
+
+  height: 8rem;
+
+  gap: 10px;
+
+  cursor: pointer;
+
+  transition: 0.5s;
+ }
+
+ .backArrow:hover {
+  color: rgb(165, 165, 165);
+ }
+
+.accountLoginBack {
+  display: flex;
+  font-size: 1.2rem;
+  gap: 10px;
+
+  margin-bottom:  3rem;
+}
+
+.accountLoginBack a {
+  color: #71FF2C;
+  font-weight: 600;
+  border-bottom: 1px solid;
+
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+
+.accountLoginBack a:hover {
+  color: #b4ff8e;
+}
+
+.checkbox-custom p {
+  font-size: 1.1rem;
+  color: #ffffff81;
+}
